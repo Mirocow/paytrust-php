@@ -77,7 +77,8 @@ class Client
 
         $options = array_merge($this->clientOptions, $options);
         $options["headers"]["User-Agent"] = $this->user_agent;
-        $options["headers"]["Authorization"] = "Basic " . $this->key;
+        $options["headers"]["Content-type"] = 'application/json';
+        $options["auth"] = [$this->key, $this->key];
 
         try {
             if ($this->wrapResponse === false) {

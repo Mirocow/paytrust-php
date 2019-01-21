@@ -1,7 +1,7 @@
 <?php 
 namespace PayTrust\Resources;
 
-class Transaction
+class Transaction extends Resource
 {  
     /**
      * @param array $params Array of transaction start.
