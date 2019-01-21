@@ -2,7 +2,7 @@
 
 namespace PayTrust\Exceptions;
 
-class HubspotException extends \Exception
+class PayTrustException extends \Exception
 {
     //
 }
