@@ -1,0 +1,22 @@
+{
+    "name": "webguru221/PayTrust88",
+    "description": "PayTrust88 API Client",
+    "type": "library",
+    "keywords": [ "paytrust", "api" ],
+    "license": "",
+    "require": {
+        "php": ">=5.3.3",
+        "phpunit/PHPUnit": "3.7.*",
+        "instaclick/php-code-sniffer": "dev-master",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "PayTrust": "src/"
+        },
+        "files": [ "src/helpers.php" ]
+    },
+    "minimum-stability": "stable"
+}
