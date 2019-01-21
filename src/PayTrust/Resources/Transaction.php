@@ -20,7 +20,7 @@ class Transaction extends Resource
      * @param array $params Array of transaction start.
      * @return \payTrust\Http\Response
      */
-    function all($params = [])
+    function status($params = [])
     {
         $endpoint = "https://api.paytrust88.com/v1/transaction/status";
 
