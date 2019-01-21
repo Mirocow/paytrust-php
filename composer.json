@@ -1,5 +1,5 @@
 {
-    "name": "webguru221/PayTrust88",
+    "name": "webguru221/paytrust-php",
     "description": "PayTrust88 API Client",
     "type": "library",
     "keywords": [ "paytrust", "api" ],
