@@ -3,7 +3,7 @@
     "description": "PayTrust88 API Client",
     "type": "library",
     "keywords": [ "paytrust", "api" ],
-    "license": "",
+    "license": "Apache-2.0",
     "require": {
         "php": ">=5.3.3",
         "phpunit/PHPUnit": "3.7.*",
