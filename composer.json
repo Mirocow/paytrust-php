@@ -14,7 +14,7 @@
         "psr-0": {
             "PayTrust": "src/"
         },
-        "files": [ "src/helpers.php" ]
+        "files": [ "src/PayTrust/helpers.php" ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true

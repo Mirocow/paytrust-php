@@ -5,7 +5,7 @@
 **Composer:**
 
 ```bash
-composer require "webguru221/paytrust-php:~1.0"
+composer require "webguru221/paytrust-php:dev-master"
 ```
 
 ## Quickstart
