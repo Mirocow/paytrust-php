@@ -1,15 +1,15 @@
 <?php 
 namespace PayTrust\Resources;
 
-class Transaction extends Resource
+class Payout extends Resource
 {  
     /**
-     * @param array $params Array of transaction start.
+     * @param array $params Array of payout start.
      * @return \PayTrust\Http\Response
      */
     function start($params)
     {
-        $endpoint = "https://api.paytrust88.com/v1/transaction/start";
+        $endpoint = "https://api.paytrust88.com/v1/payout/start";
 
         $options['json'] = $params;
 
@@ -17,12 +17,12 @@ class Transaction extends Resource
     }
     
     /**
-     * @param array $params Array of transaction status.
+     * @param array $params Array of payout status.
      * @return \PayTrust\Http\Response
      */
     function status($params = [])
     {
-        $endpoint = "https://api.paytrust88.com/v1/transaction/status";
+        $endpoint = "https://api.paytrust88.com/v1/payout/status";
 
         $queryString = build_query_string($params);
 

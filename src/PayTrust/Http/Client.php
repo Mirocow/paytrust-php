@@ -101,7 +101,7 @@ class Client
      */
     protected function generateUrl($endpoint, $query_string = null)
     {
-        $url = $endpoint."?";
+        $url = $query_string ? $endpoint."?" : $endpoint;
 
         return $url.$query_string;
     }
